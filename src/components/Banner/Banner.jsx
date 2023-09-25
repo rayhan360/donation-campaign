@@ -5,7 +5,7 @@ import DonationCards from '../DonationCardSection/DonationCards';
 import { useState } from 'react';
 const Banner = () => {
 
-    const [search, setsearch] = useState('');
+    const [search, setSearch] = useState('');
     const [selectCategory, setSelectCategory] = useState('')
    
     const handleSearch = () => {
@@ -21,7 +21,7 @@ const Banner = () => {
                         <div className="">
                             <h1 className="text-5xl font-bold">I Grow By Helping People In Need</h1>
                             <div className='mt-10'>
-                                <input id='search-field' type="text" placeholder="Search here..." className="p-3 md:w-full md:max-w-xs"  style={{ borderRadius: "10px 0 0 10px"}} value={search} onChange={(e)=> setsearch(e.target.value)}/>
+                                <input id='search-field' type="text" placeholder="Search here..." className="p-3 md:w-full md:max-w-xs"  style={{ borderRadius: "10px 0 0 10px"}} value={search} onChange={(e)=> setSearch(e.target.value)}/>
                                 <button className='bg-[#FF444A] p-3 text-white' style={{borderRadius: "0 10px 10px 0"}} 
                                 onClick={handleSearch}
                                 >Search</button>
