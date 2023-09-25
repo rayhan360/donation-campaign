@@ -11,20 +11,9 @@
         "description": "Support our mission to provide clean and safe drinking water to communities in need. Your contribution will help us build sustainable water infrastructure and ensure access to clean water for generations to come. Access to clean water is a fundamental human right, yet millions around the world lack this basic necessity. Waterborne diseases claim countless lives every day, especially in developing countries where access to clean water is limited.\n\nOur organization is dedicated to changing that. We partner with local communities to develop water sources, implement purification systems, and educate people on water hygiene. With your support, we can continue our vital work, saving lives and improving the well-being of countless individuals.\n\nEvery dollar you donate will go directly towards water projects, bringing us one step closer to a world where no one has to worry about the safety of the water they drink. Join us in making a lasting impact and providing hope for a better future.",
         "price": 50
     },
+    
     {
         "id": 2,
-        "img": "https://i.ibb.co/TRqRtr7/Health.png",
-        "thumbnail": "https://i.ibb.co/ZGXSDbd/Rectangle-4284.png",
-        "title": "Animal Rescue Fund",
-        "category": "Health",
-        "category_bg_color": "#0052FF26",
-        "card_bg_color": "#0052FF33",
-        "text_color": "#0052FF",
-        "description": "Join us in our efforts to rescue and provide loving care for animals in distress. Your support enables us to rescue animals from abusive situations, provide medical treatment, and find them forever homes. Together, we can give these innocent creatures a second chance at life. Many animals suffer from neglect, abuse, and abandonment, and they rely on compassionate individuals like you to make a difference in their lives.\n\nOur dedicated team of veterinarians, animal welfare professionals, and volunteers work tirelessly to ensure that rescued animals receive the care and attention they deserve. We believe that every animal deserves a safe and loving home, and your contribution can help make that possible. By donating to our Animal Rescue Fund, you are directly supporting our rescue missions, medical treatments, and adoption programs.\n\nYour generosity not only saves individual animals but also contributes to the broader cause of animal welfare. Together, we can create a world where all animals are treated with kindness and compassion.",
-        "price": 25
-    },
-    {
-        "id": 3,
         "img": "https://i.ibb.co/4YsYC2x/Education.png",
         "thumbnail": "https://i.ibb.co/J3C2wpy/Rectangle-4287-1.png",
         "title": "Education for All",
@@ -34,6 +23,18 @@
         "text_color": "#FF444A",
         "description": "Help us make a lasting impact on the lives of underprivileged children through education. Your donation will support our educational initiatives, including providing books, scholarships, and access to quality education. Access to education is a powerful tool for breaking the cycle of poverty and creating brighter futures for individuals and communities.\n\nMany children around the world face barriers to education due to financial constraints, lack of resources, or discrimination. Our organization is committed to removing these barriers and ensuring that every child has the opportunity to learn and grow.\n\nWith your support, we can provide scholarships to talented but disadvantaged students, improve school infrastructure, and promote educational programs that empower children to reach their full potential. Together, we can create a world where every child has access to quality education, regardless of their background.",
         "price": 35
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/bJGKtMK/Clothing.png",
+        "thumbnail": "https://i.ibb.co/znPzv2M/Rectangle-4287.png",
+        "title": "Arts and Culture Support",
+        "category": "Clothing",
+        "category_bg_color": "#79C23F26",
+        "card_bg_color": "#79C23F33",
+        "text_color": "#79C23F",
+        "description": "Support the arts and culture in your community. Your donation will help fund local arts organizations, museums, and cultural events that enrich the lives of people in your area. Together, we can celebrate creativity and cultural diversity. Arts and culture play a vital role in society, enriching our lives and connecting us to our heritage and shared experiences.\n\nOur organization is dedicated to supporting the arts in all their forms, from visual arts and music to theater and literature. We believe that everyone should have access to cultural experiences that inspire, educate, and entertain.\n\nYour donation will directly contribute to funding local arts initiatives, supporting artists, and making cultural events accessible to all. By donating to our Arts and Culture Support Fund, you become a patron of the arts, helping to ensure that creativity thrives in your community.",
+        "price": 40
     },
     {
         "id": 4,
@@ -47,20 +48,9 @@
         "description": "Join us in the fight against hunger in your local community. Your contribution will help provide nutritious meals to those in need, especially during these challenging times. Hunger is a widespread issue, even in the most affluent societies, and it affects millions of individuals and families.\n\nOur organization is dedicated to addressing this critical problem by distributing food to those who are struggling to put meals on their tables. We partner with local food banks, shelters, and community organizations to ensure that no one goes to bed hungry.\n\nYour donation will enable us to purchase and distribute essential food items, including fresh produce, canned goods, and non-perishable items. By supporting our Fight Hunger Campaign, you are directly helping us provide sustenance to those facing food insecurity and making a positive impact on the health and well-being of your neighbors in need.",
         "price": 10
     },
+    
     {
         "id": 5,
-        "img": "https://i.ibb.co/TRqRtr7/Health.png",
-        "thumbnail": "https://i.ibb.co/ZGXSDbd/Rectangle-4284.png",
-        "title": "Medical Research Fund",
-        "category": "Health",
-        "category_bg_color": "#0052FF26",
-        "card_bg_color": "#0052FF33",
-        "text_color": "#0052FF",
-        "description": "Support medical research to find cures for diseases. Your donation will contribute to cutting-edge medical research projects aimed at improving the health and well-being of people around the world. Together, we can save lives. Medical research has the power to transform the way we understand and treat diseases. It leads to breakthroughs in treatments, medications, and technologies that improve the quality of life for millions.\n\nOur organization is at the forefront of medical research, conducting studies in areas such as cancer, heart disease, and infectious diseases. Your contribution will directly support these efforts, providing funding for equipment, laboratory facilities, and the work of dedicated researchers.\n\nBy donating to our Medical Research Fund, you become a partner in the quest for better health outcomes. Join us in the fight against diseases, and let's work together to make a lasting impact on global health.",
-        "price": 75
-    },
-    {
-        "id": 6,
         "img": "https://i.ibb.co/4YsYC2x/Education.png",
         "thumbnail": "https://i.ibb.co/J3C2wpy/Rectangle-4287-1.png",
         "title": "Environmental Conservation",
@@ -72,19 +62,20 @@
         "price": 30
     },
     {
-        "id": 7,
-        "img": "https://i.ibb.co/bJGKtMK/Clothing.png",
-        "thumbnail": "https://i.ibb.co/znPzv2M/Rectangle-4287.png",
-        "title": "Arts and Culture Support",
-        "category": "Clothing",
-        "category_bg_color": "#79C23F26",
-        "card_bg_color": "#79C23F33",
-        "text_color": "#79C23F",
-        "description": "Support the arts and culture in your community. Your donation will help fund local arts organizations, museums, and cultural events that enrich the lives of people in your area. Together, we can celebrate creativity and cultural diversity. Arts and culture play a vital role in society, enriching our lives and connecting us to our heritage and shared experiences.\n\nOur organization is dedicated to supporting the arts in all their forms, from visual arts and music to theater and literature. We believe that everyone should have access to cultural experiences that inspire, educate, and entertain.\n\nYour donation will directly contribute to funding local arts initiatives, supporting artists, and making cultural events accessible to all. By donating to our Arts and Culture Support Fund, you become a patron of the arts, helping to ensure that creativity thrives in your community.",
-        "price": 40
+        "id": 6,
+        "img": "https://i.ibb.co/TRqRtr7/Health.png",
+        "thumbnail": "https://i.ibb.co/ZGXSDbd/Rectangle-4284.png",
+        "title": "Medical Research Fund",
+        "category": "Health",
+        "category_bg_color": "#0052FF26",
+        "card_bg_color": "#0052FF33",
+        "text_color": "#0052FF",
+        "description": "Support medical research to find cures for diseases. Your donation will contribute to cutting-edge medical research projects aimed at improving the health and well-being of people around the world. Together, we can save lives. Medical research has the power to transform the way we understand and treat diseases. It leads to breakthroughs in treatments, medications, and technologies that improve the quality of life for millions.\n\nOur organization is at the forefront of medical research, conducting studies in areas such as cancer, heart disease, and infectious diseases. Your contribution will directly support these efforts, providing funding for equipment, laboratory facilities, and the work of dedicated researchers.\n\nBy donating to our Medical Research Fund, you become a partner in the quest for better health outcomes. Join us in the fight against diseases, and let's work together to make a lasting impact on global health.",
+        "price": 75
     },
+    
     {
-        "id": 8,
+        "id": 7,
         "img": "https://i.ibb.co/mtZJr1P/Food.png",
         "thumbnail": "https://i.ibb.co/3czWtJ6/Rectangle-4287-2.png",
         "title": "Disaster Relief Fund",
@@ -94,6 +85,18 @@
         "text_color": "#F87147",
         "description": "Contribute to disaster relief efforts worldwide. Your donation will provide immediate assistance to communities affected by natural disasters such as earthquakes, hurricanes, and floods. Together, we can offer hope and support in times of crisis. Natural disasters can strike at any moment, causing widespread devastation and leaving communities in urgent need of assistance.\n\nOur organization is committed to responding quickly and effectively to disaster-affected areas, providing food, shelter, medical care, and other essential resources. Your donation to our Disaster Relief Fund will ensure that we can mobilize resources and teams to help those in crisis.\n\nBy supporting our efforts, you become a lifeline for those affected by disasters, offering them hope and a path to recovery. Join us in making a difference in the lives of disaster survivors and helping communities rebuild.",
         "price": 15
+    },
+    {
+        "id": 8,
+        "img": "https://i.ibb.co/bJGKtMK/Clothing.png",
+        "thumbnail": "https://i.ibb.co/znPzv2M/Rectangle-4287.png",
+        "title": "Fashion for a Cause",
+        "category": "Clothing",
+        "category_bg_color": "#79C23F26",
+        "card_bg_color": "#79C23F33",
+        "text_color": "#79C23F",
+        "description": "Support our Fashion for a Cause initiative and make a stylish impact. Your donation will not only keep you in vogue but also contribute to meaningful change. Fashion isn't just about looking good; it can also be a powerful force for good. Our organization has partnered with designers and artisans to create trendy clothing lines that support various charitable causes.\n\nBy donating to our Fashion for a Cause campaign, you're not only adding fashionable pieces to your wardrobe but also supporting important causes. Whether it's providing clothing to underprivileged communities, promoting sustainable and ethical fashion, or empowering local artisans, your contribution will make a difference.\n\nJoin us in wearing your values and making fashion choices that have a positive impact. Every garment tells a story, and yours can tell a story of compassion and change.",
+        "price": 50
     },
     {
         "id": 9,
@@ -133,14 +136,15 @@
     },
     {
         "id": 12,
-        "img": "https://i.ibb.co/bJGKtMK/Clothing.png",
-        "thumbnail": "https://i.ibb.co/znPzv2M/Rectangle-4287.png",
-        "title": "Fashion for a Cause",
-        "category": "Clothing",
-        "category_bg_color": "#79C23F26",
-        "card_bg_color": "#79C23F33",
-        "text_color": "#79C23F",
-        "description": "Support our Fashion for a Cause initiative and make a stylish impact. Your donation will not only keep you in vogue but also contribute to meaningful change. Fashion isn't just about looking good; it can also be a powerful force for good. Our organization has partnered with designers and artisans to create trendy clothing lines that support various charitable causes.\n\nBy donating to our Fashion for a Cause campaign, you're not only adding fashionable pieces to your wardrobe but also supporting important causes. Whether it's providing clothing to underprivileged communities, promoting sustainable and ethical fashion, or empowering local artisans, your contribution will make a difference.\n\nJoin us in wearing your values and making fashion choices that have a positive impact. Every garment tells a story, and yours can tell a story of compassion and change.",
-        "price": 50
+        "img": "https://i.ibb.co/TRqRtr7/Health.png",
+        "thumbnail": "https://i.ibb.co/ZGXSDbd/Rectangle-4284.png",
+        "title": "Animal Rescue Fund",
+        "category": "Health",
+        "category_bg_color": "#0052FF26",
+        "card_bg_color": "#0052FF33",
+        "text_color": "#0052FF",
+        "description": "Join us in our efforts to rescue and provide loving care for animals in distress. Your support enables us to rescue animals from abusive situations, provide medical treatment, and find them forever homes. Together, we can give these innocent creatures a second chance at life. Many animals suffer from neglect, abuse, and abandonment, and they rely on compassionate individuals like you to make a difference in their lives.\n\nOur dedicated team of veterinarians, animal welfare professionals, and volunteers work tirelessly to ensure that rescued animals receive the care and attention they deserve. We believe that every animal deserves a safe and loving home, and your contribution can help make that possible. By donating to our Animal Rescue Fund, you are directly supporting our rescue missions, medical treatments, and adoption programs.\n\nYour generosity not only saves individual animals but also contributes to the broader cause of animal welfare. Together, we can create a world where all animals are treated with kindness and compassion.",
+        "price": 25
     }
+   
 ]
