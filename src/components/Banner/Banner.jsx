@@ -1,6 +1,17 @@
+// import { useState } from 'react';
 import banner from '../../assets/banner_bg.jpeg'
 import './Banner.css'
+import DonationCards from '../DonationCardSection/DonationCards';
+import { useState } from 'react';
 const Banner = () => {
+
+    const [search, setsearch] = useState('');
+    const [selectCategory, setSelectCategory] = useState('')
+   
+    const handleSearch = () => {
+        setSelectCategory(search)
+    } 
+
     return (
         <div>
             <div className='relative'>
@@ -10,13 +21,16 @@ const Banner = () => {
                         <div className="">
                             <h1 className="text-5xl font-bold">I Grow By Helping People In Need</h1>
                             <div className='mt-10'>
-                                <input type="text" placeholder="Search here..." className="p-3 md:w-full md:max-w-xs"  style={{ borderRadius: "10px 0 0 10px"}}/>
-                                <button className='bg-[#FF444A] p-3 text-white' style={{borderRadius: "0 10px 10px 0"}}>Search</button>
+                                <input id='search-field' type="text" placeholder="Search here..." className="p-3 md:w-full md:max-w-xs"  style={{ borderRadius: "10px 0 0 10px"}} value={search} onChange={(e)=> setsearch(e.target.value)}/>
+                                <button className='bg-[#FF444A] p-3 text-white' style={{borderRadius: "0 10px 10px 0"}} 
+                                onClick={handleSearch}
+                                >Search</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <DonationCards selectCategory={selectCategory}></DonationCards>
         </div>
     );
 };

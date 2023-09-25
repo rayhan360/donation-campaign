@@ -8,6 +8,7 @@ import Home from './components/Home/Home'
 import Donation from './components/Donation/Donation'
 
 import Card from './components/CardDetails/Card'
+import Statistics from './components/Statistics/Statistics'
 
 
 
@@ -26,7 +27,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/statistics",
-        element: 
+        element: <Statistics></Statistics>
       },
       {
         path: "/donation/:id",
