@@ -7,10 +7,10 @@ const Header = () => {
     const [open, setOpen] = useState(false)
     return (
         <div className="flex justify-between py-6">
-            <div>
+            <div className="">
                 <img className="w-48" src={Logo} alt="" />
             </div>
-            <div>
+            <div className="">
                 <div className="md:hidden text-2xl mr-8 mt-5" onClick={() => setOpen(!open)}>
                     {
                         open === true ? <AiOutlineClose></AiOutlineClose> : <AiOutlineMenu></AiOutlineMenu>
@@ -23,7 +23,7 @@ const Header = () => {
                         </li>
                         <li>
                             <NavLink
-                                to="/donation">Donation</NavLink>
+                                to="/donations">Donation</NavLink>
                         </li>
                         <li>
                             <NavLink to="/statistics">Statistics</NavLink>
