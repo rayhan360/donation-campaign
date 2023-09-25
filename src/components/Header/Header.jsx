@@ -16,7 +16,7 @@ const Header = () => {
                         open === true ? <AiOutlineClose></AiOutlineClose> : <AiOutlineMenu></AiOutlineMenu>
                     }
                 </div>
-                <nav className={`absolute md:block md:static px-5 ${open ? 'right-1' : '-right-72'} ${open ? 'block' : 'hidden'}`}>
+                <nav className={`absolute bg-white md:block z-50 md:static px-5 ${open ? 'right-1' : '-right-72'} ${open ? 'block' : 'hidden'}`}>
                     <ul className="flex flex-col md:flex-row gap-5">
                         <li>
                             <NavLink to="/">Home</NavLink>
