@@ -2,7 +2,12 @@ import { useEffect, useState } from "react";
 import DonationCard from "./DonationCard";
 import PropTypes from 'prop-types';
 
-const DonationCards = ({selectCategory}) => {
+const 
+
+
+
+
+DonationCards = ({selectCategory}) => {
     const [donationCard, setDonationCard] = useState([])
 
     useEffect(() => {

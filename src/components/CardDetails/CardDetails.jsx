@@ -22,6 +22,8 @@ const CardDetails = ({ detailCard }) => {
                 addedDonate.push(...donateItems, detailCard)
                 localStorage.setItem("donation", JSON.stringify(addedDonate));
                 toast.success("Good Job! Your donation has been successfully")
+            }else{
+                toast.error("You have already donated")
             }
         }
     }

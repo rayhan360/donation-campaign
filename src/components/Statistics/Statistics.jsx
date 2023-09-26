@@ -1,13 +1,12 @@
+/* eslint-disable no-unused-vars */
 import { useEffect, useState } from "react";
 import { PieChart, Pie, Cell } from "recharts";
 
 const Statistics = () => {
-  const [donate, setDonate] = useState([]);
   const [percentageDonated, setPercentageDonated] = useState(0);
 
   useEffect(() => {
     const donateItems = JSON.parse(localStorage.getItem("donation"));
-    setDonate(donateItems);
 
     if (donateItems) {
       const donatedCount = donateItems.length;
@@ -15,7 +14,7 @@ const Statistics = () => {
       const percentage = (donatedCount / totalCount) * 100;
       setPercentageDonated(percentage);
     }
-  }, [donate]);
+  }, []);
  
   const RADIAN = Math.PI / 180;
   const renderCustomizedLabel = ({
