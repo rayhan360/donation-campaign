@@ -9,7 +9,6 @@ const Statistics = () => {
     const donateItems = JSON.parse(localStorage.getItem("donation"));
     setDonate(donateItems);
 
-    // Calculate the percentage of items donated
     if (donateItems) {
       const donatedCount = donateItems.length;
       const totalCount = 12;
@@ -17,7 +16,7 @@ const Statistics = () => {
       setPercentageDonated(percentage);
     }
   }, [donate]);
-
+ 
   const RADIAN = Math.PI / 180;
   const renderCustomizedLabel = ({
     cx,
@@ -39,21 +38,21 @@ const Statistics = () => {
         textAnchor={x > cx ? "start" : "end"}
         dominantBaseline="central"
       >
-        {`${(percent * 100).toFixed(2)}%`}
+        {`${(percent * 100).toFixed(1)}%`}
       </text>
     );
   };
 
   // Data for the PieChart
   const data = [
-    { key: "Donated", value: percentageDonated },
-    { key: "Remaining", value: 100 - percentageDonated }
+    { key: "Donated", value: 100 - percentageDonated },
+    { key: "Remaining", value: percentageDonated }
   ];
 
-  const COLORS = ["#00C49F", "#FF444A"];
+  const COLORS = ["#FF444A","#00C49F"];
 
   return (
-    <div className="lg:flex flex-col lg:justify-center items-center lg:h-[70vh]">
+    <div className="md:flex flex-col md:justify-center items-center lg:h-[70vh]">
       <PieChart width={400} height={400}>
         <Pie
           data={data}

@@ -5,9 +5,6 @@ import PropTypes from 'prop-types';
 const CardDetails = ({ detailCard }) => {
     const { id, img, title, description, price, text_color } = detailCard || {}
 
-
-
-
     const handleAddToDonate = () => {
         const addedDonate = [];
 
